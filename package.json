@@ -1,0 +1,24 @@
+{
+  "name": "apiducter",
+  "version": "1.0.0",
+  "description": "api ducter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "api",
+    "ducter"
+  ],
+  "author": "@michiwoo",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0"
+  }
+}
